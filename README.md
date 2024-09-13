@@ -1,26 +1,31 @@
-# **Basic Calculator**
+# **Turtle Race**
 
 ## **Overview:**
 
-This is the Day 10 project from the 100 Days of Code: The Complete Python Pro Bootcamp. This simple calculator program performs basic arithmetic operations including addition, subtraction, division, and multiplication. Users can continue calculations using the result of the previous operation.
+This is the Day 19 project B from the 100 Days of Code: The Complete Python Pro Bootcamp. In this project, you'll create a fun turtle race simulation using Python's `turtle` module. The user bets on which turtle will win the race, and the program runs the race to determine the winner.
 
 ## **How It Works:**
 
-1. **Function Definitions:**
-   - **Addition (`add`)**: Returns the sum of two numbers.
-   - **Subtraction (`sub`)**: Returns the difference between two numbers.
-   - **Division (`div`)**: Returns the quotient of two numbers.
-   - **Multiplication (`mult`)**: Returns the product of two numbers.
+1. **Setup:**
+   - The screen is initialized and set up with a specified width and height.
+   - The user is prompted to place a bet on which turtle they think will win by entering a color.
 
-2. **User Interaction:**
-   - The user is prompted to enter the first number.
-   - They then choose an operation from the list of available operations (addition, subtraction, division, multiplication).
-   - After selecting an operation, they input the second number, and the result is displayed.
-   - The user can choose to continue calculations with the result or exit the program.
+2. **Turtle Initialization:**
+   - Six turtles, each with a unique color, are created and positioned at the starting line.
+   - Turtles are placed in different vertical positions to ensure they start in distinct lanes.
 
-3. **Looping and Functionality:**
-   - The program allows users to perform multiple calculations by using the result of the previous operation as the first number in the next calculation.
-   - Users can exit the calculator by choosing not to continue.
+3. **Race Execution:**
+   - The race begins if the user has placed a bet.
+   - Turtles move forward by a random distance on each iteration until one crosses the finish line.
+   - The race concludes when a turtle crosses the finish line, and the result is compared to the user's bet to determine if they won or lost.
+
+4. **Results:**
+   - The color of the winning turtle is displayed along with a message indicating whether the user's bet was correct.
+
+5. **Exit:**
+   - The program waits for a click on the screen to exit.
+
+
 
 ## **Example:**
 
@@ -29,7 +34,7 @@ This is the Day 10 project from the 100 Days of Code: The Complete Python Pro Bo
 ## **Requirements:**
 
 - Python 3.x
-
+- `turtle` module (comes pre-installed with Python)
 
 
 
