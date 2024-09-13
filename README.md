@@ -29,7 +29,7 @@ This is the Day 19 project B from the 100 Days of Code: The Complete Python Pro 
 
 ## **Example:**
 
-![alt text](https://github.com/Bosaif39/example-pics/blob/main/D_10.png?raw=true)
+![alt text]()
 
 ## **Requirements:**
 
